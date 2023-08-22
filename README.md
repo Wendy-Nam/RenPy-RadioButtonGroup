@@ -1,6 +1,6 @@
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.png?v=103)](https://github.com/ellerbrock/open-source-badges/) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-# 🔘 RadioButtonGroup Plugin
+# 🔘 RadioButtonGroup Plugin for Ren'Py
 
 The RadioButtonGroup plugin provides a convenient way to create and manage groups of radio buttons with both text and image options in Ren'Py. This README file will guide you through the process of setting up and using the RadioButtonGroup plugin in your Ren'Py project.
 
