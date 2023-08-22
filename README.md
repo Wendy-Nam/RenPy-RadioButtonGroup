@@ -57,7 +57,7 @@ The RadioButtonGroup plugin serves as a powerful solution for scenarios where yo
 
      ```renpy
      $ image_list = ["images/poker1.png", "images/poker2.png", "images/poker3.png", "images/poker4.png"]
-     $ tbtn = RadioButtonGroup(image_list)
+     $ imgbtn = RadioButtonGroup(image_list)
      ```
 
 2.  <b>Call the Screen:</b>
@@ -66,7 +66,7 @@ The RadioButtonGroup plugin serves as a powerful solution for scenarios where yo
 
     ```renpy
     "Select up to 1 option:"
-    $ renpy.call_screen('radio_image_buttons', tbtn, max_choice=1)
+    $ renpy.call_screen('radio_image_buttons', imgbtn, max_choice=1)
     ```
 
 3.  <b>Retrieve Selected Value:</b>
@@ -74,7 +74,7 @@ The RadioButtonGroup plugin serves as a powerful solution for scenarios where yo
       Retrieve the selected values from the RadioButtonGroup object once the screen is closed:
    
      ```renpy
-     $ res = tbtn.get_selected_values()
+     $ res = imgbtn.get_selected_values()
      "You selected [res] from the image options"
 
      ```
