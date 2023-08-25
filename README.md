@@ -13,7 +13,7 @@ The RadioButtonGroup plugin serves as a powerful solution for scenarios where yo
 ## Installation
 
 1. <b>Clone the Repository:</b>
-   Clone this repository and copy the `radio_button_group.rpy` file into your Ren'Py project directory.
+   Clone this repository and copy the `radio_buttons.rpy` file into your Ren'Py project directory.
 
 2. <b>Image Resources (Optional):</b>
    If you plan to use image options, make sure to place your image files in a directory accessible to your Ren'Py project, and update the image paths in the examples accordingly.
