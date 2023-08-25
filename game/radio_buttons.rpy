@@ -2,10 +2,14 @@ init python:
     class RadioButtonGroup:
         """A class to manage a group of radio buttons."""
         
-        def __init__(self, options):
+        def __init__(self, options, actions=None):
             """Initializes the RadioButtonGroup with given options."""
             self.selected = []
             self.options = [(idx, opt) for idx, opt in enumerate(options)]
+            if (actions is None) or (len(actions) < len(options)):
+                self.actions = [NullAction() for _ in range(len(options))]
+            else:
+                self.actions = actions[:len(options)]
 
         def set_option(self, option_id, max_choice=1):
             """Selects or deselects an option based on its ID."""
@@ -34,7 +38,7 @@ screen radio_text_buttons(rb_group, max_choice=1):
     vbox:
         for option_id, option_text in rb_group.options:
             $ is_option_selected = rb_group.is_selected(option_id)
-            textbutton "[option_text]" action Function(rb_group.set_option, option_id, max_choice):
+            textbutton "[option_text]" action [Function(rb_group.set_option, option_id, max_choice), rb_group.actions[option_id]]:
                 if is_option_selected:
                     text_color "#FFF000"
                 else:
@@ -52,5 +56,5 @@ screen radio_image_buttons(rb_group, max_choice=1):
                     idle tinted_image
                     hover option_image
                     selected option_image
-                    action Function(rb_group.set_option, option_id, max_choice)
+                    action [Function(rb_group.set_option, option_id, max_choice), rb_group.actions[option_id]]
         textbutton "Submit" action Return()
