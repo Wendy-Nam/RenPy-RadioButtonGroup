@@ -2,13 +2,14 @@
 
 # 🔘 RadioButtonGroup Plugin
 
+![Please enter a title_-002](https://github.com/Wendy-Nam/RenPy-RadioButtonGroup/assets/142412339/2da54730-984e-4166-ab0f-fa567d2dbaee)
+
 The RadioButtonGroup plugin provides a convenient way to create and manage groups of radio buttons with both text and image options in Ren'Py. This README file will guide you through the process of setting up and using the RadioButtonGroup plugin in your Ren'Py project.
 
 ## Introduction
 
 The RadioButtonGroup plugin serves as a powerful solution for scenarios where you need to allow users to select multiple options within a single screen, overcoming limitations presented by the standard 'menu' syntax. This plugin empowers you to create option selectors using both text buttons and image buttons, enhancing user engagement and interaction within your Ren'Py visual novel.
 
-![Please enter a title_-002](https://github.com/Wendy-Nam/RenPy-RadioButtonGroup/assets/142412339/2da54730-984e-4166-ab0f-fa567d2dbaee)
 ![screenrecord](https://github.com/Wendy-Nam/RenPy-RadioButtonGroup/assets/142412339/640033d4-a66d-4ab9-9acd-31c59bdfbe71)
 
 ## Installation
