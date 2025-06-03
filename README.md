@@ -1,6 +1,14 @@
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.png?v=103)](https://github.com/ellerbrock/open-source-badges/) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-# 🔘 RadioButtonGroup Plugin
+
+# 📌 Available on Itch.io
+
+### [seo-a-nam.itch.io/radiobuttongroup-plugin-for-renpy](https://seo-a-nam.itch.io/radiobuttongroup-plugin-for-renpy)  
+> Most users download it here. Troubleshooting and updates are also handled on Itch.io.
+
+# 💡 Overview 
+
+## 🔘 RadioButtonGroup Plugin
 
 ![Please enter a title_-002](https://github.com/Wendy-Nam/RenPy-RadioButtonGroup/assets/142412339/2da54730-984e-4166-ab0f-fa567d2dbaee)
 
